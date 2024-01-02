@@ -25,5 +25,15 @@ Phase 2: Assigning Data-Points to Clusters
 Considering the results that the authors of the reasearch paper obtained, I could get the accuracy 89.33% by comparing the dataset's real clusters labels with assigned cluster labels and the accuracy stay the same with each run of the program. Compared to Original KMeans model results, the initialization of initial centroids is random or requires the initial input by the user, so the model results with different clustering of data points and accuracy every time the program is executed. 
 
 3D visualizations of models results are shown below:
-![image](https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb) ![image](https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/541de817-e56f-4f02-b87d-2e6afe523822)
 
+<p float="left">
+  <img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb)https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb" width="450" hight=400 />
+  <img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/541de817-e56f-4f02-b87d-2e6afe523822)https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/541de817-e56f-4f02-b87d-2e6afe523822" width="400" hight=400 /> 
+</p>
+<img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/91b29db4-ea17-4cf2-8c46-99aa28be2e32" width="400" hight=400> 
+
+The last 2 visualizations show the inconsistency of clustering in Original KMeans model.
+# Future Improvements
+Despite obtaining the accuracy of the model, I could not achieve the improvements in time efficiency due to not ultimately optimized code. This may be compensated further as my programming optimization skills will improve and make some changes to the current program. In addition, the problem with k value definition stays as it was stated in the research paper. My suggestion would be using an Elbow Method. It involves running the k-means algorithm for various k values, calculating the sum of squared distances for each k, and then plotting these values against k. The optimal k is identified at the "elbow" point in the plot. 
+# Conclusion
+In summary, the enhanced k-means algorithm emerges as a notable enhancement, mitigating the challenges associated with random centroid initialization. While the assessment of time complexity is still ongoing, the primary emphasis remains on achieving improved accuracy.
