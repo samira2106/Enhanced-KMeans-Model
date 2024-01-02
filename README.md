@@ -32,6 +32,13 @@ Considering the results that the authors of the reasearch paper obtained, I coul
 
 The last 2 visualizations show the inconsistency of clustering in Original KMeans model.
 # Future Improvements
-Despite obtaining the accuracy of the model, I could not achieve the improvements in time efficiency due to not ultimately optimized code. This may be compensated further as my programming optimization skills will improve and make some changes to the current program. In addition, the problem with k value definition stays as it was stated in the research paper. My suggestion would be using an Elbow Method. It involves running the k-means algorithm for various k values, calculating the sum of squared distances for each k, and then plotting these values against k. The optimal k is identified at the "elbow" point in the plot. 
+The main problem stated in the research paper was k values definition and, for solving this problem, I used an Elbow Method. It involves running the k-means algorithm for various k values, calculating the sum of squared distances (inertia) for each k, and then plotting these values against k. The optimal k is identified at the "elbow" point in the plot. 
+
+Below the plot of Elbow Method can be seen for the 'Iris' dataset. It can be seen that the best number of clusters would be 3 or 4. As the increase in k values result in a slight decrease of inertia, the smaller k value is chosen for less complexity of the program.
+
+<img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/1337fbd6-e9c1-4d1d-b506-c68f49eeefbc" width="600" hight=600> 
+
+Despite obtaining the accuracy of the model, I could not achieve the improvements in time efficiency due to not ultimately optimized code. This may be compensated further as my programming optimization skills will improve and I will make some changes to the current program. 
+
 # Conclusion
-In summary, the enhanced k-means algorithm emerges as a notable enhancement, mitigating the challenges associated with random centroid initialization. While the assessment of time complexity is still ongoing, the primary emphasis remains on achieving improved accuracy.
+In summary, the enhanced k-means algorithm emerges as a notable enhancement, mitigating the challenges associated with random centroid initialization. While the assessment of time complexity is still ongoing, the primary emphasis remains on achieving improved accuracy and implementing Elbow Method for k value definition problem.
