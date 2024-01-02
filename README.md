@@ -25,3 +25,4 @@ Phase 2: Assigning Data-Points to Clusters
 Considering the results that the authors of the reasearch paper obtained, I could get the accuracy 89.33% by comparing the dataset's real clusters labels with assigned cluster labels and the accuracy stay the same with each run of the program. Compared to Original KMeans model results, the initialization of initial centroids is random or requires the initial input by the user, so the model results with different clustering of data points and accuracy every time the program is executed. 
 
 3D visualizations of models results are shown below:
+![image](https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb)
