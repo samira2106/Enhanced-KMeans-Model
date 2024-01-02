@@ -26,10 +26,8 @@ Considering the results that the authors of the reasearch paper obtained, I coul
 
 3D visualizations of models results are shown below:
 
-<p float="left">
-  <img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb)https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb" width="450" hight=400 />
+ <img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb)https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/5bef07c5-5297-4b37-9100-324ef49186bb" width="450" hight=400 />
   <img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/541de817-e56f-4f02-b87d-2e6afe523822)https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/541de817-e56f-4f02-b87d-2e6afe523822" width="400" hight=400 /> 
-</p>
 <img src="https://github.com/samira2106/Enhanced-KMeans-Model/assets/154353012/91b29db4-ea17-4cf2-8c46-99aa28be2e32" width="400" hight=400> 
 
 The last 2 visualizations show the inconsistency of clustering in Original KMeans model.
