@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from mpl_toolkits import mplot3d
-from sklearn.metrics import silhouette_score
 
 def euclidean_distance(data_point1, data_point2):
         return np.sqrt(np.sum((data_point1 - data_point2)**2))
