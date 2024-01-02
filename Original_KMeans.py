@@ -71,7 +71,8 @@ ax = plt.axes(projection ="3d")
 
 ax.scatter3D(D[:, 0], D[:, 1], D[:,2], c=labels)
 ax.scatter3D(kmeans.centroids[:, 0], kmeans.centroids[:, 1], kmeans.centroids[:,2], c=range(len(kmeans.centroids)),
-            marker="*", s=150)
+            marker="*", s=200)
+plt.title('Original KMeans model')
 plt.show()
 
 accuracy = (labels==real_clusters).sum()/length_D*100
