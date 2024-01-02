@@ -130,7 +130,8 @@ fig = plt.figure(figsize = (8, 5))
 ax = plt.axes(projection ="3d")
 
 ax.scatter3D(D[:, 0], D[:, 1], D[:, 2], c=predicted_clusters)
-ax.scatter3D(centroids_x, centroids_y, centroids_z, marker= '*', c=range(k), s=100)
+ax.scatter3D(centroids_x, centroids_y, centroids_z, marker= '*', c=range(k), s=200)
+plt.title('Enhanced KMeans model')
 plt.show()
 
 accuracy = (predicted_clusters==real_clusters).sum()/length_D*100
