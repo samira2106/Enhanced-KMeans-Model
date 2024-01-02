@@ -21,3 +21,7 @@ Phase 2: Assigning Data-Points to Clusters
       For each data point:
         Compute its distance from the centroid of the present nearest cluster.
         If the distance is less than or equal to the present nearest distance, the data point stays in the cluster; else, reassign it to the cluster with the nearest centroid.
+# Results and Evaluation
+Considering the results that the authors of the reasearch paper obtained, I could get the accuracy 89.33% by comparing the dataset's real clusters labels with assigned cluster labels and the accuracy stay the same with each run of the program. Compared to Original KMeans model results, the initialization of initial centroids is random or requires the initial input by the user, so the model results with different clustering of data points and accuracy every time the program is executed. 
+
+3D visualizations of models results are shown below:
